@@ -18,8 +18,8 @@ Protótipo PWA de marketplace local de serviços.
   - pagamentos recorrentes;
   - proteção contra fraude e recuperação de senha.
 - A conta administrativa de demonstração é criada localmente com:
-  - e-mail: `admin@conectaservicos.local`
-  - senha: `troque-esta-senha`
+  - e-mail: `jefersoncarvalho252@gmail.com`
+  - senha: `ben2018`
   Altere o sistema antes de qualquer uso real. Não publique credenciais reais.
 
 ## Fluxo de pagamento profissional
@@ -27,3 +27,10 @@ Protótipo PWA de marketplace local de serviços.
 - Contato para confirmação: WhatsApp (79) 99905-5301.
 - O profissional permanece pendente até o ADM ativar a assinatura.
 - O ADM ativa ou suspende a assinatura no painel administrativo.
+
+## Aprovação e exclusão
+- Ao cadastrar um profissional, o sistema abre o WhatsApp do ADM para análise.
+- O profissional fica pendente até o ADM ativar a assinatura.
+- O ADM pode suspender, reativar ou excluir clientes e profissionais.
+- A exclusão pede o código `26` nesta versão demonstrativa.
+- Não use o código fixo em produção; substitua por autorização segura no backend.

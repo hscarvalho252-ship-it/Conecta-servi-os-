@@ -1,1 +1,10 @@
-{"name":"Conecta Serviços","short_name":"Conecta","start_url":"./index.html","display":"standalone","background_color":"#f4f7fb","theme_color":"#0b1220","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml"}]}
+{
+  "name":"Conecta Serviços",
+  "short_name":"Conecta",
+  "start_url":"./index.html",
+  "display":"standalone",
+  "background_color":"#f4f7f8",
+  "theme_color":"#0f766e",
+  "description":"Marketplace local de serviços",
+  "icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
