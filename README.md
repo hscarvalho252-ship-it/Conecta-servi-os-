@@ -1,7 +1,29 @@
 # Conecta Serviços
 
-Envie os arquivos para um repositório público no GitHub e ative Settings > Pages > main > root.
+Protótipo PWA de marketplace local de serviços.
 
-Instalação: Android pelo Chrome > Adicionar à tela inicial; iPhone pelo Safari > Compartilhar > Adicionar à Tela de Início.
+## Como executar
+1. Extraia os arquivos.
+2. Abra `index.html` em um navegador ou publique no GitHub Pages.
+3. Para instalar como aplicativo, acesse pelo navegador compatível e escolha "Adicionar à tela inicial".
 
-Limitação: esta versão é front-end com localStorage. Para produção, adicione backend, autenticação segura, banco de dados, pagamentos e permissões de administrador. Não coloque senha ADM no código público.
+## Avisos importantes
+- Esta versão usa `localStorage`, portanto os dados ficam apenas no navegador/dispositivo.
+- O login é demonstrativo e não deve ser usado com senhas reais.
+- Para produção, conecte Supabase/Firebase ou outro backend com:
+  - autenticação segura;
+  - banco de dados;
+  - regras de acesso por função;
+  - chat em tempo real;
+  - pagamentos recorrentes;
+  - proteção contra fraude e recuperação de senha.
+- A conta administrativa de demonstração é criada localmente com:
+  - e-mail: `admin@conectaservicos.local`
+  - senha: `troque-esta-senha`
+  Altere o sistema antes de qualquer uso real. Não publique credenciais reais.
+
+## Fluxo de pagamento profissional
+- Mensalidade: R$ 4,99.
+- Contato para confirmação: WhatsApp (79) 99905-5301.
+- O profissional permanece pendente até o ADM ativar a assinatura.
+- O ADM ativa ou suspende a assinatura no painel administrativo.
