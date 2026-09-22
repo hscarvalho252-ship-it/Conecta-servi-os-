@@ -1,11 +1,7 @@
-# Conecta Serviços — versão sem exemplos
+# Conecta Serviços
 
-Site estático preparado para GitHub Pages. Não contém profissionais, clientes ou senhas reais pré-cadastrados.
+Envie os arquivos para um repositório público no GitHub e ative Settings > Pages > main > root.
 
-## Publicação
-1. Envie os arquivos para a raiz de um repositório público.
-2. No GitHub, abra Settings > Pages.
-3. Selecione a branch `main` e a pasta `/root`.
+Instalação: Android pelo Chrome > Adicionar à tela inicial; iPhone pelo Safari > Compartilhar > Adicionar à Tela de Início.
 
-## Segurança e produção
-O painel ADM incluído é apenas uma interface inicial. Não armazene senhas no HTML, JavaScript ou GitHub. Para funcionamento real, conecte um backend seguro com autenticação, banco de dados, permissões administrativas, controle de assinaturas e pagamentos.
+Limitação: esta versão é front-end com localStorage. Para produção, adicione backend, autenticação segura, banco de dados, pagamentos e permissões de administrador. Não coloque senha ADM no código público.
