@@ -1,36 +1,23 @@
-# Conecta Serviços
+# Conecta Serviços — PWA
 
-Protótipo PWA de marketplace local de serviços.
+Aplicativo web instalável (PWA) para clientes, profissionais e administrador.
 
-## Como executar
-1. Extraia os arquivos.
-2. Abra `index.html` em um navegador ou publique no GitHub Pages.
-3. Para instalar como aplicativo, acesse pelo navegador compatível e escolha "Adicionar à tela inicial".
+## Publicar no GitHub Pages
+1. Crie um repositório no GitHub.
+2. Envie **todos os arquivos e pastas** deste projeto mantendo a estrutura.
+3. Vá em **Settings → Pages**.
+4. Em **Build and deployment**, selecione **Deploy from a branch**.
+5. Escolha a branch `main` e a pasta `/ (root)` e salve.
+6. Abra a URL HTTPS fornecida pelo GitHub Pages.
 
-## Avisos importantes
-- Esta versão usa `localStorage`, portanto os dados ficam apenas no navegador/dispositivo.
-- O login é demonstrativo e não deve ser usado com senhas reais.
-- Para produção, conecte Supabase/Firebase ou outro backend com:
-  - autenticação segura;
-  - banco de dados;
-  - regras de acesso por função;
-  - chat em tempo real;
-  - pagamentos recorrentes;
-  - proteção contra fraude e recuperação de senha.
-- A conta administrativa de demonstração é criada localmente com:
-  - e-mail: `jefersoncarvalho252@gmail.com`
-  - senha: `ben2018`
-  Altere o sistema antes de qualquer uso real. Não publique credenciais reais.
+## Instalação
+- Android/Chrome: quando o navegador liberar a instalação, o botão **Instalar aplicativo** aparece na tela de login; também pode aparecer o comando de instalação no menu do navegador.
+- iPhone/iPad: abra a URL no Safari → **Compartilhar** → **Adicionar à Tela de Início**.
 
-## Fluxo de pagamento profissional
-- Mensalidade: R$ 4,99.
-- Contato para confirmação: WhatsApp (79) 99905-5301.
-- O profissional permanece pendente até o ADM ativar a assinatura.
-- O ADM ativa ou suspende a assinatura no painel administrativo.
+## Acesso inicial do administrador
+- E-mail: `jefersoncarvalho252@gmail.com`
+- Senha: `ben2018`
+- A senha de autorização para editar/excluir clientes: `26`
 
-## Aprovação e exclusão
-- Ao cadastrar um profissional, o sistema abre o WhatsApp do ADM para análise.
-- O profissional fica pendente até o ADM ativar a assinatura.
-- O ADM pode suspender, reativar ou excluir clientes e profissionais.
-- A exclusão pede o código `26` nesta versão demonstrativa.
-- Não use o código fixo em produção; substitua por autorização segura no backend.
+## Importante
+Esta versão é uma PWA front-end e usa `localStorage` no aparelho/navegador. Os dados não ficam sincronizados entre celulares. Para uso comercial real, substitua a autenticação e o armazenamento local por um backend/banco de dados seguro (por exemplo, Supabase/Firebase) e não mantenha senhas administrativas diretamente no código do navegador.
